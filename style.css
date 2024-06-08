@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: var(--bg-blue);
+}
+
+:root {
+
+    --bg-blue: #141519;
+    --bg-gray: #eae7e7;
+    --text-gray: #a3a3a3;
+    --bg-lblue: #1e212a;
+
+}
+
+.bg-blue {
+    background: var(--bg-blue);
+}
+
+.bg-lblue {
+    background: var(--bg-lblue);
+}
+
+.bg-gray {
+    background: var(--bg-gray);
+}
+
+.text-gray {
+    color: var(--text-gray);
+}
+
+.navbar-scrolled {
+    background-color: #141519 !important;
+}
+
+.dark {
+    background: #212529;
+    color: rgb(206, 119, 145);
+    transition: all 0.5s;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: left;
+}
+
+.custom {
+    height: 850px;
+    object-fit: cover;
+}
+
+/* .shadowww {
+    box-shadow: 15px 15px 15px 0 rgba(46, 45, 45, 0.2), 0 6px 20px 0 rgba(58, 57, 57, 0.19);
+} */
+
+.card {
+    border: none;
+    background: none;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    display: flex;
+    justify-content: center;
+    object-fit: none;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 180px;
+    margin-left: 2rem;
+}
+
+.carousel-inner img {
+    box-shadow: 0 4px 8px 0 rgba(255, 157, 1, 0.2), 0 6px 20px 0 rgba(255, 5, 5, 0.19);
+}
+
+.card-img-overlay {
+    top: 30%;
+    left: 10%;
+}
+
+.card-img-overlayCustom {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+}
+
+.card-img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #a3a3a3;
+}
+
+.Customcard {
+    border-radius: 5px;
+    width: 250px;
+    border: none;
+}
+
+.Custombrands {
+    width: 150px;
+    object-fit: cover;
+    border: var(--bg-gray) 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.accordion-button:not(.collapsed) {
+    background: var(--bg-gray);
+}
+
+.padding {
+    padding-top: 5rem;
+}
+
+.row-width-footer {
+    width: 25%;
+}
+
+.card-img-top {
+    border-radius: 0 20px 0 20px;
+}
+
+.grid-custom {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.scale img {
+    object-fit: cover;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+.scale img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:600px) {
+    .carousel-caption {
+        position: absolute;
+        top: 15rem;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        text-align: left;
+    }
+
+    .custom {
+        height: 600px;
+    }
+
+    .chetan {
+        color: #fff;
+    }
+
+    .customImage {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .carousel .btn {
+        background: #fff;
+        color: #000;
+    }
+
+    .grid-custom {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .Customcard {
+        width: 170px;
+    }
+
+    .height {
+        height: 50vh;
+    }
+
+    .Custombrands {
+        width: 100px;
+    }
+
+    .card-img-overlayCustom {
+        text-align: center;
+        position: absolute;
+        top: 70%;
+        right: 10%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .customImage {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .card-img-overlayCustom {
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 0%;
+    }
+
+    .gap {
+        gap: 1rem;
+    }
+}
